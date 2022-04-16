@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+}
+.cabecalho {
+    font-family: Arial;
+    margin-top:40vh;
+}
+.url, .converter {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.url {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+}
+.url {
+    border:2px solid #0485ff;
+}
+.converter {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #0485ff;
+    background: #0485ff;
+    color:white;
+}
