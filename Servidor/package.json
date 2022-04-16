@@ -1,0 +1,25 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Teste conversor youtube para mp3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andrepammsilva/Conversor-youtube-mp3.git"
+  },
+  "author": "André Pettinati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrepammsilva/Conversor-youtube-mp3/issues"
+  },
+  "homepage": "https://github.com/andrepammsilva/Conversor-youtube-mp3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {}
+}

@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <script src="./conversor.js"></script>
 
     <title>My little converter</title>
 </head>
-<body>
-    <h1 class="cabecalho">My little converter :3</h1>
-    <input class="url" placeholder="URL do video ....">
-    <button class="converter">Press me !</button>
 
+<body>
+    <h1 class='heading'>YouTube URL</h1>
+    <input class='URL-input' placeholder='..........' />
+    <select class='opt'>
+        <option value='mp3'>mp3</option>
+        <option value='mp4'>mp4</option>
+    </select>
+    <button class='convert-button' id='btn'>Converter</button>
+    <script src='./script.js'></script>
 </body>
+
 </html>
